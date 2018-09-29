@@ -1,0 +1,41 @@
+.navbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-link, .sign-up-button {
+  letter-spacing: 0.03em;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 1000;
+  color: white;
+}
+
+.active, .navbar-link:hover {
+  color: rgb(255, 51, 102) !important;
+}
+
+.sign-up-button {
+  background: transparent;
+  border-radius: 999em;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  font-size: 14px !important;
+  letter-spacing: 0.1071em !important;
+  color: rgb(255, 51, 102) !important;
+  box-shadow: rgb(255, 51, 102) 0px 0px 0px 2px inset;
+}
+
+
+.navbar {
+  z-index: auto;
+  position: fixed;
+}
+
+.navbar-container {
+  
+}
