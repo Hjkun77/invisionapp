@@ -40,7 +40,7 @@
 
           <!-- Enterprise -->
           <div class="navbar-item navbar-enterprise">
-            <div class="navbar-link">Enterpirse</div>
+            <div class="navbar-link">Enterprise</div>
           </div>
 
           <!-- Sign-in -->
@@ -50,27 +50,28 @@
 
           <!-- Sign up free button -->
           <div class="navbar-item navbar-button">
-            <button class="sign-up-button">Sign up free</button>
+            <button class="sign-up-button" onclick="toggleSignUp()">Sign up free</button>
           </div>
         </div>
       </nav>
 
         <!-- Title -->
         <div>
-          <h1 class='title'>Design Better. Faster. Together.</h1>
+          <h1 class='title' id='title'>Design Better. Faster. Together.</h1>
         </div>
 
         <!-- Subtitle -->
         <div>
-          <h3 class='subtitle'>The digital product design platform powering the world's best user experiences</h3>
+          <h3 class='subtitle' id='subtitle'>The digital product design platform powering the world's best user experiences</h3>
         </div>
 
         <!-- Get Started Button -->
         <div class="landing-button">
-          <button class="get-started-button">Get Started-Free Forever</button>
+          <button class="get-started-button" onclick="toggleGetStarted()">Get Started-Free Forever</button>
         </div>
     </div>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
