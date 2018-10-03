@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 // Usual Javascript
 function toggleSignUp() {
   alert('Thank you for signing-up!');
@@ -22,4 +19,3 @@ const toggleGetStarted = () => {
     status = true;
   }
 }
->>>>>>> dd8111d2ed63e55137e8bea8cabc9a6b5e90d526
